@@ -9,10 +9,10 @@ export default function Projects() {
         <h1 className="titulo">Mis Proyectos</h1>
         <Herramientas></Herramientas>
         <div>
-          <p className="mt-4">Aquí están algunos proyectos en los que he trabajado, tanto durante la universidad como fuera de ella.</p>
-          <div>
+          <p className="mt-4">Aquí están algunos proyectos en los que he trabajado.</p>
+          <div >
             {proyectos.map((proyecto)=>(
-                <Proyecto key={proyecto.id} proyecto={proyecto}/>
+              <Proyecto key={proyecto.id} proyecto={proyecto}/>
             ))}
           </div>
         </div>

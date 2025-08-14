@@ -4,7 +4,7 @@ import { FaEnvelope, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export default function About() {
     return (
-      <main className="p-6">
+      <div className="p-6">
         <div className='gap-20 text-2xl'>
           <h1 className="font-bold">¿Quién soy?</h1>
           <br></br>
@@ -18,9 +18,11 @@ export default function About() {
                 priority
                 className='border-4 borde-teal-100 rounded-2xl'
               />
-              <p className="m-10">Soy estudiante de últimos ciclos de Ingeniería de Sistemas, con interés en <strong>desarrollo de software y el análisis de datos</strong>. Apasionada por <strong>el aprendizaje, la tecnología y la innvoación</strong>, con habilidades en desarrollo web, bases de datos y modelado de sistemas. <strong>Proactiva, organizada y con gran capacidad para trabajar en equipo.</strong> Experiencia en proyectos reales aplicando metodologías ágiles (SCRUM) y herramientas de desarrollo moderno.</p>
+              <p className="m-10">Soy estudiante de últimos ciclos de Ingeniería de Sistemas, con interés en 
+                <strong> desarrollo de software y el análisis de datos</strong>. Apasionada por <strong>
+                  el aprendizaje, la tecnología y la innovación</strong>, con habilidades en desarrollo web, bases de datos y modelado de sistemas. <strong>Proactiva, organizada y con gran apertura para trabajar en equipo.</strong> Experiencia en proyectos reales aplicando metodologías ágiles (SCRUM) y herramientas de desarrollo moderno.</p>
             </div>
-            <div className="flex flex-row md:flex-col gap-20 justify-items-center">
+            <div className="flex flex-row justify-center md:flex-col gap-20 justify-items-center">
               <a href="mailto:dsmerinoh@gmail.com" className="text-2xl text-red-500 hover:text-red-700">
                 <FaEnvelope />
               </a>
@@ -37,7 +39,7 @@ export default function About() {
 
           </div>
         </div>        
-      </main>
+      </div>
     );
   }
   

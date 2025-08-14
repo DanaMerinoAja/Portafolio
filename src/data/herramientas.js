@@ -33,7 +33,7 @@ export const herramientas = [
         "href":"pronto"
     },
     {
-        "nombre": "Postgre",
+        "nombre": "PostgreSQL",
         "logo" : <BiLogoPostgresql className="h-75 w-auto"/>,
         "href":"pronto"
     },

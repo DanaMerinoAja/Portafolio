@@ -9,22 +9,26 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Link from "next/link";
 
 const images = [
   {
     src: heartLogo, 
     title: "HeartAlarm", 
-    desc: "App para monitoreo de frecuencia cardiaca"
+    desc: "App para monitoreo de frecuencia cardiaca",
+    link:"/heartalarm"
   }, 
   {
     src: marketing, 
     title: "Programa de Emprendimiento con Herramientas Digitales", 
-    desc: "Un programa de capacitación dirigido a niños de 4to grado de primaria en el que se enseñó los fundamentos del marketing y el uso de herramientas de diseño digital (Canva)."
+    desc: "Un programa de capacitación dirigido a niños de 4to grado de primaria en el que se enseñó los fundamentos del marketing y el uso de herramientas de diseño digital (Canva).",
+    link:"/pehd"
   }, 
   {
     src: cuentasLogo,
     title: "Mi Mercadito - Cuentas",
-    desc: "Una app android para gestionar cuentas de crédito de los clientes de una bodega."
+    desc: "Una app android para gestionar cuentas de crédito de los clientes de una bodega.",
+    link:"/cuentas"
   }
 ];
 
@@ -50,8 +54,8 @@ export default function Deslizador() {
                 height={300}
                 className='block m-auto'
               />
-            <div className="absolute bottom-0 h-min w-full bg-blue-900/70 text-white p-10 pb-30">
-              <h3 className="font-bold">{imageInfo.title}</h3>
+            <div className="absolute bottom-0 h-min w-full bg-blue-900/70 text-white p-10 pb-30" >
+              <h3 className="font-bold"><Link href={"/projects/"+ imageInfo.link}>{imageInfo.title}</Link></h3>
               <p >{imageInfo.desc}</p>
             </div>
           </SwiperSlide>
