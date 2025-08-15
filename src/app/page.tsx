@@ -1,5 +1,4 @@
 import Deslizador from '@/components/Deslizador';
-import Presentacion from '@/components/Presentacion';
 import About from './about/page';
 import Herramientas from '@/components/Herramientas';
 
