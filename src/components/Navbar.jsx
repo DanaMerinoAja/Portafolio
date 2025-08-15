@@ -17,18 +17,18 @@ export default function Navbar() {
       </button>
 
       <div className={`absolute top-50 right-20 flex-col bg-blue-950 sm:flex sm:flex-row sm:top-0 ${isOpen ? "flex" : "hidden"} no-underline`}>
-        <div className="hover:bg-blue-900 h-50 p-8 items-center">
-          <Link href="/">Inicio</Link>
-        </div>
-        <div className="hover:bg-blue-900 h-50 p-8">
-          <Link href="/about">Sobre Mí</Link>
-        </div>
-        <div className="hover:bg-blue-900 h-50 p-8">
-          <Link href="/projects">Proyectos</Link>
-        </div>
-        <div className="hover:bg-blue-900 h-50 p-8">
-          <Link href="/tecnologias">Tecnologías</Link>
-        </div>
+        <Link href="/"><div className="hover:bg-blue-900 h-50 p-8 items-center">
+          Inicio
+        </div></Link>
+        <Link href="/about"><div className="hover:bg-blue-900 h-50 p-8">
+          Sobre Mí
+        </div></Link>
+        <Link href="/projects"><div className="hover:bg-blue-900 h-50 p-8">
+          Proyectos
+        </div></Link>
+        <Link href="/tecnologias"><div className="hover:bg-blue-900 h-50 p-8">
+          Tecnologías
+        </div></Link>
       </div>
     </nav>
     

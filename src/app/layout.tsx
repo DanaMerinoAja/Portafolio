@@ -2,12 +2,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import "./globals.css";
-/*
-import { Open_Sans } from "next/font/google";
-const geistSans = Open_Sans({
-  variable: "--font-geist-sans"
-});
-*/
+
 export const metadata: Metadata = {
   title: "Dana Merino | Portafolio",
   description: "Portafolio de Desarrollo de Software y Análisis de Datos",
