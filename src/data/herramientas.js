@@ -1,6 +1,6 @@
 import { BiLogoPostgresql } from "react-icons/bi";
 import { DiMysql } from "react-icons/di";
-import { FaAndroid, FaAngular, FaJava, FaProjectDiagram, FaPython, FaReact } from "react-icons/fa";
+import { FaAndroid, FaAngular, FaJava, FaPython, FaReact } from "react-icons/fa";
 import { GoProjectRoadmap } from "react-icons/go";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiFirebase, SiQuarkus } from "react-icons/si";
