@@ -4,11 +4,8 @@ import path from 'node:path';
 
 export function getProjectImages(slug) {
   const dir = path.join(process.cwd(), 'public', 'projects', slug);
-  console.log("Dirección: ", dir);
-
   if (!fs.existsSync(dir)) return [];
   const files = fs.readdirSync(dir);
-   console.log("Dirección2: ", dir);
   // filtra solo imágenes básicas
   const allow = new Set(['.jpg', '.jpeg', '.png', '.webp', '.gif']);
   return files

@@ -6,6 +6,8 @@ import glasard from '@/assets/proyectos/logo-glasard-actualizado.png';
 import buses from '@/assets/proyectos/buses.png'
 import andina from '@/assets/proyectos/andina_sac.png'
 import innova from '@/assets/proyectos/innov_logo.png'
+import soygaia from '@/assets/proyectos/soy-gaialogo.png'
+
 export const proyectos = [
     {
         "id":0,
@@ -34,7 +36,7 @@ export const proyectos = [
         "herramientas":["Angular", "Quarkus", "Postgree", "PGadmin"],
         "key_words":["Base de datos", "Sitio web", "Microservicios", "Servicios"],
         "categoria":"desarrollo",
-        "img":marketing,
+        "img":soygaia,
         "link":"soygaia"
     },
     {

@@ -25,9 +25,10 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function ProyectoPage({ params }) {
-  const project = proyectos.find(p => p.link === params.slug);
-  if (!project) return notFound();
+export default async function ProyectoPage({ params }) {
+  const { slug } = await params
+  const project = proyectos.find(p => p.link === slug)
+  if (!project) return notFound()
 
   const images = getProjectImages(project.link); // rutas públicas /projects/slug/xxx.jpg
 
