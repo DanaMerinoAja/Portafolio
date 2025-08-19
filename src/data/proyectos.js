@@ -4,7 +4,8 @@ import heartLogo from '@/assets/proyectos/heart_alarm_logo_full.png';
 import marketing from '@/assets/proyectos/marketing_herramientas_digitales.png';
 import glasard from '@/assets/proyectos/logo-glasard-actualizado.png';
 import buses from '@/assets/proyectos/buses.png'
-
+import andina from '@/assets/proyectos/andina_sac.png'
+import innova from '@/assets/proyectos/innov_logo.png'
 export const proyectos = [
     {
         "id":0,
@@ -13,7 +14,8 @@ export const proyectos = [
         "herramientas":["Android Studio", "Java", "Python", "Arduino IDE", "C++"],
         "key_words":["Servidor", "Tiempo real"],
         "categoria":"desarrollo",
-        "img":heartLogo
+        "img":heartLogo,
+        "link":"heartalarm"
     },
     {
         "id":1,
@@ -22,7 +24,8 @@ export const proyectos = [
         "herramientas":["Firebase", "Android Studio", "JavaScript"],
         "key_words":["App móvil", "Firebase", "OneBusAway", "OBA"],
         "categoria":"desarrollo",
-        "img":buses
+        "img":buses,
+        "link":"busflow"
     },
     {
         "id":2,
@@ -31,7 +34,8 @@ export const proyectos = [
         "herramientas":["Angular", "Quarkus", "Postgree", "PGadmin"],
         "key_words":["Base de datos", "Sitio web", "Microservicios", "Servicios"],
         "categoria":"desarrollo",
-        "img":marketing
+        "img":marketing,
+        "link":"soygaia"
     },
     {
         "id":3,
@@ -40,7 +44,8 @@ export const proyectos = [
         "herramientas":["Firebase", "React.js", "ReactNative.js"],
         "key_words":["App móvil", "Firebase Hosting", "Firebase Firestore"],
         "categoria":"desarrollo",
-        "img":glasard
+        "img":glasard,
+        "link":"glasard-pedidos"
     },
     {
         "id":4,
@@ -49,25 +54,28 @@ export const proyectos = [
         "herramientas":["Android Studio", "Java", "Firebase", "Python"],
         "key_words":["Servidor", "Tiempo real"],
         "categoria":"desarrollo",
-        "img":cuentasLogo
+        "img":cuentasLogo,
+        "link":"mi-mercadito-cuentas"
     },
     {
         "id":5,
         "nombre":"Programa de emprendimiento con herramientas digitales",
-        "descripcion":"Programa de capacitaciones paraUn programa de capacitación dirigido a niños de 4to grado de primaria en el que se enseñó los fundamentos del marketing y el uso de herramientas de diseño digital (Canva).",
+        "descripcion":"Un programa de capacitación dirigido a niños de 4to grado de primaria en el que se enseñó los fundamentos del marketing y el uso de herramientas de diseño digital (Canva).",
         "herramientas":["PMBOK", "Project", "Firebase", "Python"],
         "key_words":["Servidor", "Tiempo real"],
         "categoria":"gestion",
-        "img":marketing
+        "img":marketing,
+        "link":"emprendimiento"
     },
     {
         "id":6,
         "nombre":"Universal Andina - Web",
         "descripcion":"Se diseñó un sitio web para la empresa Universal Andina SAC.",
-        "herramientas":["Firebase", "React.js"],
+        "herramientas":["Astro"],
         "key_words":["Sitio web", "Firebase Hosting"],
         "categoria":"desarrollo",
-        "img":amaro
+        "img":andina,
+        "link":"universal-andina"
     },
     {
         "id":7,
@@ -76,7 +84,8 @@ export const proyectos = [
         "herramientas":["Firebase", "React.js"],
         "key_words":["Sitio web", "Firebase Hosting"],
         "categoria":"desarrollo",
-        "img":amaro
+        "img":amaro,
+        "link":"amaro-cafe"
     },
     {
         "id":8,
@@ -85,6 +94,7 @@ export const proyectos = [
         "herramientas":["Wix"],
         "key_words":["Sitio web", "Firebase Hosting"],
         "categoria":"desarrollo",
-        "img":amaro
+        "img":innova,
+        "link":"innova-foods"
     }
 ]

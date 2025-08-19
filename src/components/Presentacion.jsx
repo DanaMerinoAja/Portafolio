@@ -2,7 +2,7 @@ export default function Presentacion() {
     return (
       <div className="p-8 text-left">
         <br/>
-        <h1 className="titulo"><strong>Ingeniería de Sistemas</strong></h1>
+        <h3><strong>Ingeniería de Sistemas</strong></h3>
         <hr></hr>
         <div className="p-8">
           <p>La <a href="https://www.incose.org/" className="underline">INCOSE</a> define a la ingeniería de sistemas como:</p>
