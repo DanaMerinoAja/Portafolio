@@ -28,7 +28,7 @@ export default function Deslizador() {
             /* antes: bg-white md:min-h-400 (clase inválida) */
             className="bg-background md:min-h-[400px]"
           >
-            <Link href={"/each-project/" + imageInfo.link}>
+            <Link href="/projects">
               <Image
                 src={imageInfo.img}
                 alt={`Slide ${index}`}
@@ -36,7 +36,7 @@ export default function Deslizador() {
                 height={300}
                 className="block m-auto"
               />
-              <div className="absolute bottom-0 h-20 w-full bg-primary/80 text-primary-foreground p-10 pb-30">
+              <div className="absolute bottom-0 h-10 w-full bg-primary/80 text-primary-foreground p-5 pb-25">
                 <h3 className="font-bold">{imageInfo.nombre}</h3>
                 <p>{imageInfo.descripcion}</p>
               </div>
